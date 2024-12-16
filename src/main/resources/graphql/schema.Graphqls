@@ -1,0 +1,3 @@
+type Mutation{
+    saveCar(model: String, color: String, maticul: String, price: Float): CarDTO
+}
